@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+	<title>Generals</title>
+</head>
+<body>
+  <div class="container-fluid">
+  	<div class="row justify-content-around">
+  		<div class="gameField col-10 col-lg-6">
+  		  <div class="userImage"></div>
+  		  <div class="savedDiceUser diceRow">
+  		    <div class="savedDice"></div>	
+  		    <div class="savedDice"></div>	
+  		    <div class="savedDice"></div>	
+  		    <div class="savedDice"></div>	
+  		    <div class="savedDice"></div>	
+  		  </div>
+  		  <div class="activeDiceUser diceRow">
+  		    <div class="activeDice"></div>	
+  		    <div class="activeDice"></div>	
+  		    <div class="activeDice"></div>	
+  		    <div class="activeDice"></div>	
+  		    <div class="activeDice"></div>	
+  		  </div>
+  		  <div class="rollDice">Flip</div>
+  		  <div class="attempts">Attempts: <span class="attempsNum">3</span></div>
+  		  <div class="activeDiceComp diceRow">
+  		    <div class="activeDice"></div>	
+  		    <div class="activeDice"></div>	
+  		    <div class="activeDice"></div>	
+  		    <div class="activeDice"></div>	
+  		    <div class="activeDice"></div>	
+  		  </div>
+  		  <div class="savedDiceComp diceRow">
+  		    <div class="savedDice"></div>	
+  		    <div class="savedDice"></div>	
+  		    <div class="savedDice"></div>	
+  		    <div class="savedDice"></div>	
+  		    <div class="savedDice"></div>	
+  		  </div>
+  		  <div class="computerImage"></div>
+  		</div>
+
+  		<div class="gameTable col-10 col-lg-4">
+  			<div class="rowName tableRow">
+  				<div class="firstCol">Combination</div>
+  				<div class="secondCol">Player</div>
+  				<div class="thirdCol">AI</div>
+  			</div>
+  			<div class="0 tableRow">
+  				<div class="firstCol">Ones</div>
+  				<div class="player secondCol">0</div>
+  				<div class="computer thirdCol">0</div>
+  			</div>
+  			<div class="1 tableRow">
+  				<div class="firstCol">Twos</div>
+  				<div class="player secondCol">0</div>
+  				<div class="computer thirdCol">0</div>
+  			</div>
+  			<div class="2 tableRow">
+  				<div class="firstCol">Threes</div>
+  				<div class="player secondCol">0</div>
+  				<div class="computer thirdCol">0</div>
+  			</div>
+  			<div class="3 tableRow">
+  				<div class="firstCol">Fours</div>
+  				<div class="player secondCol">0</div>
+  				<div class="computer thirdCol">0</div>
+  			</div>
+  			<div class="4 tableRow">
+  				<div class="firstCol">Fives</div>
+  				<div class="player secondCol">0</div>
+  				<div class="computer thirdCol">0</div>
+  			</div>
+  			<div class="5 tableRow">
+  				<div class="firstCol">Sixs</div>
+  				<div class="player secondCol">0</div>
+  				<div class="computer thirdCol">0</div>
+  			</div>
+  			<div class="6 tableRow">
+  				<div class="firstCol">Straight</div>
+  				<div class="player secondCol">0</div>
+  				<div class="computer thirdCol">0</div>
+  			</div>
+  			<div class="7 tableRow">
+  				<div class="firstCol">Full house</div>
+  				<div class="player secondCol">0</div>
+  				<div class="computer thirdCol">0</div>
+  			</div>
+  			<div class="8 tableRow">
+  				<div class="firstCol">Four of a kind</div>
+  				<div class="player secondCol">0</div>
+  				<div class="computer thirdCol">0</div>
+  			</div>
+  			<div class="9 tableRow">
+  				<div class="firstCol">General</div>
+  				<div class="player secondCol">0</div>
+  				<div class="computer thirdCol">0</div>
+  			</div>
+  			<div class="10 tableRow">
+  				<div class="firstCol">Score</div>
+  				<div class="secondCol playerTotal">0</div>
+  				<div class="thirdCol computerTotal">0</div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
