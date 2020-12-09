@@ -457,5 +457,5 @@ const startGame = () => {
   }));
   computerColumn.forEach((column, index) => column.addEventListener('click', saveValueInTable.bind(null, column)));
 };
-
+//DONE
 startGame();
