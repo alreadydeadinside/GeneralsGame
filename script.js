@@ -54,7 +54,7 @@ const countResult = () => {
 // and shows the message who is the winner
 const checkGameEnd = () => {
   const closedRows = document.querySelectorAll('#close');
-  if (closedRows.length === 20 || Number.parseInt(userResult.innerText) > 100 || Number.parseInt(computerResult.innerText) > 100) {
+  if (closedRows.length === 20 || Number.parseInt(userResult.innerText) > 300 || Number.parseInt(computerResult.innerText) > 300) {
     let message = (Number.parseInt(userResult.innerText) > Number.parseInt(computerResult.innerText)) ? 'You win!' : 'You lose!';
     if (Number.parseInt(userResult.innerText) === Number.parseInt(computerResult.innerText)) message = 'Draw!';
     rollDiceButton.style.display = 'none';
